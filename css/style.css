@@ -1,0 +1,81 @@
+.flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+.logo {
+    order: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+   height: auto;
+}
+
+.social {
+        order: 2;
+        width: 100%;
+        float: right;
+        clear: right;
+        position: relative;
+        height: auto;
+
+        }
+
+.pbody {
+    order: 3;
+    width:100%;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: Open Sans;
+    position: relative;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Open Sans;
+    position: relative;
+    color: gray;
+}
+
+p {
+    font-size: 25px;
+    font-family: Open Sans Condensed;
+}
+
+.logodesign {
+    order: 4;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.photobox {
+    order: 5;
+    width: 100%;
+    position: relative;
+}
+
+.contact {
+    font-family: Open Sans Condensed;
+    order: 6;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    font-family: Open Sans Condensed;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

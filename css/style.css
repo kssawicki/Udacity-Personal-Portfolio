@@ -59,8 +59,10 @@ p {
 }
 
 .contact {
-    font-family: Open Sans Condensed;
+    font-family: "Open Sans Condensed";
     order: 6;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -72,7 +74,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    font-family: Open Sans Condensed;
+    font-family: "Open Sans Condensed";
     color: white;
     padding: 12px 20px;
     border: none;

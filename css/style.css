@@ -1,29 +1,32 @@
 .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        }
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.non-responsive-img {
+    width:100px;
+    height:100px;
+}
 
 .logo {
-    order: 1;
-    width: 50%;
+    /* order: 1; */
     float: left;
-    position: relative;
-   height: auto;
+    width: 30%;
 }
 
 .social {
-        order: 2;
-        width: 100%;
-        float: right;
-        clear: right;
-        position: relative;
-        height: auto;
-
-        }
+    /* order: 2; */
+    width: 50%;
+    float: right;
+    /* clear: right; */
+    /* position: relative; */
+    /* height: auto; */
+    margin-left: 20%;
+}
 
 .pbody {
     order: 3;
-    width:100%;
+    width: 100%;
 }
 
 h1 {
@@ -48,7 +51,6 @@ p {
     order: 4;
     width: 100%;
     position: relative;
-
 
 }
 

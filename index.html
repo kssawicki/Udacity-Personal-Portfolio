@@ -2,74 +2,90 @@
 <html>
 
 <head>
-    <link href="./css/style.css" rel="stylesheet">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Katie's Design Portfolio</title>
     <!--Below are the references for the fonts to be used for the page -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-    </head>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
 <!--The header contains the logo and links to my social media tags-->
 <body>
 <header>
-<div class="flex-container">
-    <div class="logo">
-    <img src="./img/name_triangles.png" width="300" height="300" alt="Stack of triangles logo">
-    </div>
-    <div class="social">
-    <a href="https://www.facebook.com/katherine.sawicki.1"> <img src="./img/facebook.png" width="60" height="60" alt="link to Katie's Facebook page"> </a>
-    <a href="https://www.instagram.com/katherinessawicki/"> <img src="./img/instagram.png" width="60" height="60" alt="link to Katie's Instagram page"> </a>
-    <a href="https://www.linkedin.com/in/katherinesawicki/"> <img src="./img/linkedin.png" width="60" height="60" alt="link to Katie's LinkedIn page"> </a>
-    </div>
+    <div class="flex-container">
+        <div class="logo">
+            <img src="./img/name_triangles.png" width="300" height="300" alt="Stack of triangles logo">
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/katherine.sawicki.1">
+                <img src="./img/facebook.png" width="200" height="200" class="non-responsive-img"
+                     alt="link to Katie's Facebook page">
+            </a>
+            <a href="https://www.instagram.com/katherinessawicki/">
+                <img src="./img/instagram.png" width="200" height="200"  alt="link to Katie's Instagram page" class="non-responsive-img">
+            </a>
+            <a href="https://www.linkedin.com/in/katherinesawicki/">
+                <img src="./img/linkedin.png" width="200" height="200" alt="link to Katie's LinkedIn page" class="non-responsive-img">
+            </a>
+        </div>
     </div>
 </header>
 <div class="pbody">
     <h1>Bienvenidos!</h1> &nbsp;
-   <p>Feel free to browse some of my designs!</p> &nbsp;
+    <p>Feel free to browse some of my designs!</p> &nbsp;
 
     <!--The following is the format for my logos-->
-<div class="logodesign">
-      <h2>Logos</h2>
-      <p>The following logos include work from my time at the Nevada Small Business Development Center and freelance projects.</p> &nbsp;
-      <img src="./img/uas.png" width="300" height="273" alt="Logo of Under African Skies logo with silhouettes of a tree, giraffe, elephant, and bird">
-      <img src="./img/TECHWell.png" width="500" height="300" alt="Logo of the 2016 TECHWell conference of Typewell's signature arrow circuling a network globe">
-      <img src="./img/car.png" width="350" height="300" alt="Logo for Center of Adaptive Riding depicting a rider hugging a horse">
-      </div>
+    <div class="logodesign">
+        <h2>Logos</h2>
+        <p>The following logos include work from my time at the Nevada Small Business Development Center and freelance
+            projects.</p> &nbsp;
+        <img src="./img/uas.png" width="300" height="273"
+             alt="Logo of Under African Skies logo with silhouettes of a tree, giraffe, elephant, and bird">
+        <img src="./img/TECHWell.png" width="500" height="300"
+             alt="Logo of the 2016 TECHWell conference of Typewell's signature arrow circuling a network globe">
+        <img src="./img/car.png" width="350" height="300"
+             alt="Logo for Center of Adaptive Riding depicting a rider hugging a horse">
+    </div>
 
-      <!--The following is the format for my photos-->
-<div class="photobox">
-      <h2>Photos</h2>
-      <p>These photos have been taken for clients' products, my favorite kind of photography!</p>
-      <img src="./img/tiramisu_2.jpg" width="300" height="200" alt="A picture of strawberries outling a fresh tiramisu cake">
-      <img src="./img/hatscarfbag1.jpg" width="200" height="300" alt="A picture of cowboy apparel hanging in the dusk's light within the owner's shop">
-      <img src="./img/butternut_1.jpg" width="300" height="200" alt="A picture of the owner's popular butternut squash ravioli recipe">
-</div>
+    <!--The following is the format for my photos-->
+    <div class="photobox">
+        <h2>Photos</h2>
+        <p>These photos have been taken for clients' products, my favorite kind of photography!</p>
+        <img src="./img/tiramisu_2.jpg" width="300" height="200"
+             alt="A picture of strawberries outling a fresh tiramisu cake">
+        <img src="./img/hatscarfbag1.jpg" width="200" height="300"
+             alt="A picture of cowboy apparel hanging in the dusk's light within the owner's shop">
+        <img src="./img/butternut_1.jpg" width="300" height="200"
+             alt="A picture of the owner's popular butternut squash ravioli recipe">
+    </div>
 
-      <!--The following is the start for the contact portion-->
+    <!--The following is the start for the contact portion-->
     <h2>Contact</h2>
     <p>If you wanna, we can collaborate for your next project!</p>
-   </div>
+</div>
 
-   <!-- Below is where the user would start to fill in the form... as if it actually would send to my email!-->
-    <div class="logodesign"></div>
+<!-- Below is where the user would start to fill in the form... as if it actually would send to my email!-->
+<div class="logodesign"></div>
 
-    <div class="photobox"></div>
-    <div class="contact">
+<div class="photobox"></div>
+<div class="contact">
     <form action="/action_page.php">
-    <label for="firstname">First Name</label>
-    <input type="text" id="firstname" name="value" placeholder="Enter your first name">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="value" placeholder="Enter your first name">
 
-    <label for="lastname">Last Name</label>
-    <input type="text" id="lastname" name="lastname" placeholder="Enter your last name">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="What do you wanna do?" style="height:200px; width:200px;"></textarea>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="What do you wanna do?"
+                  style="height:200px; width:200px;"></textarea>
 
-    <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
 
     </form>
-    </div>
-   
+</div>
+
 </body>
 </html>

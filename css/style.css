@@ -11,20 +11,17 @@
 
 .social {
     order: 2;
-    width: 100%;
-    height: auto;
 }
 
 
 .main {
     order: 3;
-    width: 100%;
 }
 
 
 h1 {
     word-wrap: break-word;
-    font-size: 55px;
+    font-size: 65px;
     font-family: "Open Sans";
     position: relative;
 }
@@ -51,6 +48,5 @@ p {
 
 .photobox {
     order: 5;
-    width: 100%;
     position: relative;
 }

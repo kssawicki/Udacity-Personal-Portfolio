@@ -1,3 +1,8 @@
+@media (min-width: 48em) {
+
+}
+
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +21,12 @@
 
 .main {
     order: 3;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 
@@ -38,6 +49,13 @@ h2 {
 p {
     font-size: 25px;
     font-family: "Open Sans Condensed";
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 
